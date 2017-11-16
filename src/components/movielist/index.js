@@ -12,7 +12,7 @@ class MovieList extends Component{
             movies:[],
             search:'',
             userDetail:'',
-            isLoggedIn:true
+            isLoggedIn:false
         };
         this.updateSearch =  this.updateSearch.bind(this);
         this.searchAction =  this.searchAction.bind(this);
